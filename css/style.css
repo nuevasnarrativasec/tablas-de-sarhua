@@ -1,0 +1,55 @@
+#social {
+    float: right;
+    margin: 20px;
+    position: absolute;
+    right: 0;
+    z-index: 600;
+}
+
+    #social ul {
+        display: inline-block;
+        margin: 0 auto;
+        padding: 0;
+        vertical-align: middle;
+    }
+
+        #social ul li {
+            display: inline-block;
+            margin: 0 3px;
+            vertical-align: middle;
+        }
+
+            #social ul li a{
+                height: 36px;
+                width: 36px;
+            }
+
+                #fb {
+                    background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/abuso-infantil/img/fb-icon-negro.png?v2) no-repeat 0 0 !important;
+                    background-size: 100% !important;
+                    border: none;
+                    display: inline-block;
+                    height: 36px;
+                    text-indent: -9999px;
+                    width: 36px;
+                }
+
+                #wst {
+                    background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/abuso-infantil/img/wsp-icon-negro.png?v2) no-repeat 0 0 !important;
+                    background-size: 100% !important;
+                    border: none;
+                    display: none;
+                    height: 36px;
+                    text-indent: -9999px;
+                    width: 36px;
+                }
+
+                #tw {
+                    background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/abuso-infantil/img/tw-icon-negro.png?v2) no-repeat 0 0 !important;
+                    background-size: 100% !important;
+                    border: none;
+                    display: inline-block;
+                    height: 36px;
+                    text-indent: -9999px;
+                    width: 36px;
+                }
