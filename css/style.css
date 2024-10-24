@@ -90,10 +90,21 @@ html {
     overflow-x: hidden;
 }  
 .main-portada{
-    background: url('../img/bg-portada.webp') no-repeat center top;
-    background-size: cover;
     height: 100vh;
 }
+    .main-portada video{
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        top: 0;   
+    }
+    .main-portada img{
+        bottom: 20px;        
+        left: 50%; 
+        max-width: 50px; 
+        position: absolute;
+        z-index: 10;
+    }
 .main-contenido{
     background-attachment: fixed;
     background-color: #FFDDAF;
