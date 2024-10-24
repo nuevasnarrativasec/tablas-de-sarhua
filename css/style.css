@@ -91,6 +91,7 @@ html {
 }  
 .main-portada{
     height: 100vh;
+    position: relative;
 }
     .main-portada video{
         height: 100%;
@@ -512,6 +513,9 @@ html {
 
 @media only screen and (max-width: 640px) {    
 
+    .main-portada{
+        height: 40vh;
+    }
     .estrella-2{
         top: 50px;
     }    
