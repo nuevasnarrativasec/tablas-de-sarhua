@@ -435,7 +435,11 @@ html {
     #profesora-desktop{
         display: block;
     }
-    #profesora-movil{
+    img.nino-desktop{
+        display: inline-block;
+    }
+    #profesora-movil,
+    img.nino-movil{
         display: none;
     }
 
@@ -570,7 +574,23 @@ html {
         img.animacion-7.entrar-animacion-7 {
             left: -10%;
             z-index: 10;
-        }    
+        } 
+    .box-ninos h3{
+        padding: 0 20px;
+    }
+    img.nino-desktop{
+        display: none;
+    }   
+    img.nino-movil{
+        display: inline-block;
+        max-width: 150px;
+    }
+    .box-footer{
+        margin-top: -25px;
+    }
+    .cinta{
+        margin-top: -20px;
+    }
 
 }
 
