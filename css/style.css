@@ -177,7 +177,7 @@ html {
             position: absolute;
 
             transition: all 0.5s ease-in-out;   
-            animation: opacity 7s infinite linear, fall 7s infinite linear, sway 7s infinite ease-in-out;
+            animation: opacity 10s infinite linear, fall 14s infinite linear, sway 10s infinite ease-in-out;
         }
             img.flor-2.entrar-flor-derecha{
                 right: -60%;
@@ -188,7 +188,7 @@ html {
             position: absolute;
 
             transition: all 0.9s ease-in-out;   
-            animation: opacity 7s infinite linear, fall 7s infinite linear, sway 7s infinite ease-in-out;
+            animation: opacity 10s infinite linear, fall 14s infinite linear, sway 10s infinite ease-in-out;
         }
             img.flor-3.entrar-flor-izquierda{
                 left: -50%;
@@ -199,7 +199,7 @@ html {
             position: absolute;
 
             transition: all 0.9s ease-in-out;   
-            animation: opacity 7s infinite linear, fall 7s infinite linear, sway 7s infinite ease-in-out;
+            animation: opacity 10s infinite linear, fall 14s infinite linear, sway 10s infinite ease-in-out;
         }
             img.flor-4.entrar-flor-derecha{
                 right: -50%;
