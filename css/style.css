@@ -449,7 +449,7 @@ html {
             top: 10%; 
         }
         100% {
-            top: 50%; 
+            top: 80%; 
         }
     }     
     @keyframes fall-medio {

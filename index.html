@@ -85,7 +85,7 @@
             <img class="cinta" src="./img/cinta.png" alt="cinta" width="100%">
 
             <div class="ctn-contenido contenido-2">
-                <h3>
+                <h3 id="trigger-flor-2">
                     ¿Cómo se lee una tabla de Sarhua?
                 </h3>
                 <p>
@@ -316,7 +316,7 @@
         // flor 2
         var controller = new ScrollMagic.Controller();       
         new ScrollMagic.Scene({
-            triggerElement: ".flor-2",
+            triggerElement: "#trigger-flor-2",
             triggerHook: 0.5,
         })
             .on("enter", function(event) {
