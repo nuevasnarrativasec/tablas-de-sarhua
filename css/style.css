@@ -516,6 +516,9 @@ html {
     .main-portada{
         height: 40vh;
     }
+    .main-portada img{
+        transform: translate(-50%, 50%);
+    }
     .estrella-2{
         top: 50px;
     }    
