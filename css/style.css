@@ -417,3 +417,90 @@ html {
     html .powa.non-active {
         opacity: 0;
     }
+    #profesora-desktop{
+        display: block;
+    }
+    #profesora-movil{
+        display: none;
+    }
+
+
+@media only screen and (max-width: 640px) {    
+
+    .estrella-2{
+        top: 50px;
+    }    
+    .ctn-contenido h3,
+    .ctn-contenido p{
+        padding: 0 20px;
+    }
+    .ctn-contenido h3{
+        font-size: 42px;
+    }
+    .ctn-contenido p{
+        font-size: 18px;
+    }
+    img.flor.entrar-flor-izquierda{
+        margin-top: -10px;
+    }
+    img.animacion-1,
+    img.animacion-2{
+        max-width: 200px;
+    }
+        img.animacion-1.entrar-animacion-1{
+            margin-left: -50px;
+        }
+    img.animacion-2{
+        position: absolute;
+    }
+    img.animacion-3,
+    img.animacion-4{
+        display: none;
+    }
+    img.flor-2{
+        max-width: 250px;
+    }
+        img.flor-2.entrar-flor-derecha{
+            right: -40%;
+        }
+    .box{
+        margin: 0 20px 40px;
+    }
+    img.flor-3{
+        max-width: 150px;
+    }
+        img.flor-3.entrar-flor-izquierda {
+            left: -30%;
+        }
+    .ctn-contenido h4{
+        font-size: 21px;
+        padding: 0 20px;
+    }
+    #profesora-desktop{
+        display: none;
+    }
+    #profesora-movil{
+        display: block;
+    }
+    .contenido-2{
+        margin-top: -25px;
+        padding-top: 55px;
+    }
+    img.animacion-6{
+        max-width: 100px;
+    }        
+        img.animacion-6.entrar-animacion-6 {
+            left: -5%;
+        }
+    img.animacion-7,
+    img.animacion-5{
+        max-width: 200px;
+    }
+        img.animacion-7.entrar-animacion-7 {
+            left: -10%;
+            z-index: 10;
+        }
+    
+
+
+}
