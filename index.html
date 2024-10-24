@@ -54,7 +54,7 @@
         </div>
 
         <div class="main-portada">
-            <img src="https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/resumen-fotos-2023/img/flecha-bajar-blanca.png" width="100%" alt="">
+            <img class="flecha" src="https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/resumen-fotos-2023/img/flecha-bajar-blanca.png" width="100%" alt="">
             <video src="./video/portada-desktop.mp4" width="100%" muted autoplay loop playsinline></video>
         </div>
 
@@ -278,6 +278,16 @@
     <script src="https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/puerto-de-chancay/js/animation.gsap.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 
+
+    <script>
+        document.querySelector(".flecha").addEventListener("click", function() {
+            const target = document.querySelector(".main-contenido");
+            window.scrollTo({
+                top: target.offsetTop,
+                behavior: "smooth"
+            });
+        });
+    </script>
 
     <!-- compartir -->
     <script>

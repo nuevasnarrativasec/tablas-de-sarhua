@@ -99,7 +99,8 @@ html {
         top: 0;   
     }
     .main-portada img{
-        bottom: 20px;        
+        bottom: 20px;  
+        cursor: pointer;      
         left: 50%; 
         max-width: 50px; 
         position: absolute;
