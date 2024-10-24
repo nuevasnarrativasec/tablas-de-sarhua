@@ -448,7 +448,7 @@ html {
         max-width: 200px;
     }
         img.animacion-1.entrar-animacion-1{
-            margin-left: -50px;
+            margin-left: 0;
         }
     img.animacion-2{
         position: absolute;
@@ -485,6 +485,9 @@ html {
     .contenido-2{
         margin-top: -25px;
         padding-top: 55px;
+    }
+    .contenido-3{
+        padding-top: 120px;
     }
     img.animacion-6{
         max-width: 100px;

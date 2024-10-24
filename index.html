@@ -474,22 +474,21 @@
         });
 
         // Configuración del IntersectionObserver para pausar iframes cuando salen del viewport
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            const iframe = $(entry.target).find('iframe');
-            if (!entry.isIntersecting) {
-                // Si el iframe sale del viewport, se recarga su src para pausarlo
-                const iframeSrc = iframe.attr('src');
-                iframe.attr('src', iframeSrc); // Recargar iframe
-                console.log("Iframe pausado y recargado:", iframeSrc);
-            }
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                const iframe = $(entry.target).find('iframe');
+                if (!entry.isIntersecting) {
+                    const iframeSrc = iframe.attr('src');
+                    iframe.attr('src', iframeSrc); // Recargar iframe
+                    console.log("Iframe pausado y recargado:", iframeSrc);
+                }
+            });
         });
-    });
 
-    // Observa todos los elementos .box-video
-    $('.box-video').each(function() {
-        observer.observe(this);
-    });
+        // Observa todos los elementos .box-video
+        $('.box-video').each(function() {
+            observer.observe(this);
+        });
     </script>
 </body>
 </html>
