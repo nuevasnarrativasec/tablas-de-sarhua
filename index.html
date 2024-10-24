@@ -173,6 +173,10 @@
                         <div style="position:relative;overflow:hidden;padding-bottom:56.25%"><iframe src="https://cdn.jwplayer.com/players/qo4Yraks-aQVjnIkX.html" width="100%" height="100%" frameborder="0" scrolling="auto" title="EC | Carlos Basombrío, exministro del Interior" style="position:absolute;" allowfullscreen></iframe></div>
                     </div>
                 </div>
+                <img class="animacion-6" src="./img/animacion-7.gif" alt="animacion-6" width="100%">  
+                <img class="animacion-7" src="./img/animacion-6.gif" alt="animacion-7" width="100%">   
+                <img class="animacion-5" src="./img/animacion-5.gif" alt="animacion-5" width="100%">                   
+
             </div>
 
             <img class="cinta" src="./img/cinta.png" alt="cinta" width="100%">
@@ -403,6 +407,48 @@
             })
             .on("leave", function(event) {
                 $(".animacion-4").removeClass("entrar-animacion-4"); 
+            })
+            .addTo(controller);
+        
+        // animacion costura
+        var controller = new ScrollMagic.Controller();       
+        new ScrollMagic.Scene({
+            triggerElement: ".animacion-6",
+            triggerHook: 0.5,
+        })
+            .on("enter", function(event) {
+                $(".animacion-5").addClass("entrar-animacion-5"); 
+            })
+            .on("leave", function(event) {
+                $(".animacion-5").removeClass("entrar-animacion-5"); 
+            })
+            .addTo(controller);
+
+        // animacion hombre parado
+        var controller = new ScrollMagic.Controller();       
+        new ScrollMagic.Scene({
+            triggerElement: ".animacion-6",
+            triggerHook: 0.5,
+        })
+            .on("enter", function(event) {
+                $(".animacion-6").addClass("entrar-animacion-6"); 
+            })
+            .on("leave", function(event) {
+                $(".animacion-6").removeClass("entrar-animacion-6"); 
+            })
+            .addTo(controller);
+
+        // animacion mesa serrucho
+        var controller = new ScrollMagic.Controller();       
+        new ScrollMagic.Scene({
+            triggerElement: ".animacion-6",
+            triggerHook: 0.5,
+        })
+            .on("enter", function(event) {
+                $(".animacion-7").addClass("entrar-animacion-7"); 
+            })
+            .on("leave", function(event) {
+                $(".animacion-7").removeClass("entrar-animacion-7"); 
             })
             .addTo(controller);
     </script>

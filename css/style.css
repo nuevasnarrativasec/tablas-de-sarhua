@@ -273,6 +273,45 @@ html {
                 left: 55%;
                 opacity: 1;
             }
+        img.animacion-5{
+            /*filter: brightness(1.5);*/
+            left: 50%;
+            max-width: 300px;   
+            opacity: 0;         
+            position: absolute;
+            
+            transition: all 0.8s ease-in-out;
+        }
+            img.animacion-5.entrar-animacion-5{
+                left: 60%;
+                opacity: 1;
+            }
+        img.animacion-6{
+            /*filter: brightness(1.5);*/
+            left: 0;
+            max-width: 200px;   
+            opacity: 0;         
+            position: relative;
+            
+            transition: all 0.8s ease-in-out;
+        }
+            img.animacion-6.entrar-animacion-6{
+                left: 5%;
+                opacity: 1;
+            }
+        img.animacion-7{
+            /*filter: brightness(1.5);*/
+            left: 0;
+            max-width: 400px;   
+            opacity: 0;         
+            position: relative;
+            
+            transition: all 0.8s ease-in-out;
+        }
+            img.animacion-7.entrar-animacion-7{
+                left: 2%;
+                opacity: 1;
+            }
     .cinta{
         margin-top: -60px;
         position: relative;
