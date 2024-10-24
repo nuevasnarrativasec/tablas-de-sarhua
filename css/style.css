@@ -166,7 +166,7 @@ html {
             max-width: 550px;
             position: absolute;
 
-            transition: all 0.5s ease-in-out;   
+            transition: all 0.5s ease-in-out;  
         }
             img.flor.entrar-flor-izquierda{
                 left: -60%;
@@ -177,6 +177,7 @@ html {
             position: absolute;
 
             transition: all 0.5s ease-in-out;   
+            animation: opacity 7s infinite linear, fall 7s infinite linear, sway 7s infinite ease-in-out;
         }
             img.flor-2.entrar-flor-derecha{
                 right: -60%;
@@ -187,6 +188,7 @@ html {
             position: absolute;
 
             transition: all 0.9s ease-in-out;   
+            animation: opacity 7s infinite linear, fall 7s infinite linear, sway 7s infinite ease-in-out;
         }
             img.flor-3.entrar-flor-izquierda{
                 left: -50%;
@@ -197,6 +199,7 @@ html {
             position: absolute;
 
             transition: all 0.9s ease-in-out;   
+            animation: opacity 7s infinite linear, fall 7s infinite linear, sway 7s infinite ease-in-out;
         }
             img.flor-4.entrar-flor-derecha{
                 right: -50%;
@@ -423,6 +426,58 @@ html {
     #profesora-movil{
         display: none;
     }
+
+    @keyframes opacity {
+        0% {
+            opacity: 0; 
+        }
+        25%{
+            opacity: 0.2; 
+        }
+        50%{
+            opacity: 0.5; 
+        }
+        75%{
+            opacity: 0.8; 
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @keyframes fall {
+        0% {
+            top: 10%; 
+        }
+        100% {
+            top: 50%; 
+        }
+    }     
+    @keyframes fall-medio {
+        0% {
+            top: 50%; 
+        }
+        100% {
+            top: 80%; 
+        }
+    }                
+    @keyframes sway {
+        0% {
+            transform: translateX(0);
+        }
+        25% {
+            transform: translateX(-20px); 
+        }
+        50% {
+            transform: translateX(0px); 
+        }
+        75%{
+            transform: translateX(10px); 
+        }
+        100% {
+            transform: translateX(20px); 
+        }
+    }
+
 
 
 @media only screen and (max-width: 640px) {    

@@ -11,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="./css/style.css?v3">
+    <link rel="stylesheet" href="./css/style.css?v4">
     <link rel="stylesheet" href="https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/puerto-de-chancay/css/examples.css?v4">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -133,7 +133,7 @@
 
                 <img class="flor-3" src="./img/flor-3.webp" alt="flor" width="100%">
 
-                <h3>
+                <h3 id="trigger-flor-3">
                     El viaje de Elizabeth para transformar la educación 
                 </h3>
                 <p>
@@ -330,7 +330,7 @@
         // flor 3
         var controller = new ScrollMagic.Controller();       
         new ScrollMagic.Scene({
-            triggerElement: ".flor-3",
+            triggerElement: "#trigger-flor-3",
             triggerHook: 0.5,
         })
             .on("enter", function(event) {
