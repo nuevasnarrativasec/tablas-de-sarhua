@@ -204,7 +204,8 @@ html {
             img.flor-4.entrar-flor-derecha{
                 right: -50%;
             }
-        .ctn-contenido h3{
+        .ctn-contenido h3,
+        .box-ninos h3{
             font: 38px/1.1 "Caveat", cursive;
             font-weight: 700;
             letter-spacing: -1px;
@@ -349,6 +350,17 @@ html {
                     font-family: 'prelobold';
                     display: block;
                 }
+    .box-ninos{
+        background-color: #FFDDAF;
+        padding: 50px 0 0;
+        text-align: center;
+    }
+        img.nino{
+            display: inline-block;
+            margin: 0 10px;
+            max-width: 400px;
+            vertical-align: bottom;
+        }
 
 
     /** videos **/
