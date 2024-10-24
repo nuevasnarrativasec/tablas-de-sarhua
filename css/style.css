@@ -495,14 +495,15 @@ html {
     .ctn-contenido p{
         font-size: 18px;
     }
-    img.flor.entrar-flor-izquierda{
+    .main-contenido img.flor.entrar-flor-izquierda{
+        left: -65%;
         margin-top: -10px;
     }
-    img.animacion-1,
-    img.animacion-2{
+    .main-contenido img.animacion-1,
+    .main-contenido img.animacion-2{
         max-width: 200px;
     }
-        img.animacion-1.entrar-animacion-1{
+        .main-contenido img.animacion-1.entrar-animacion-1{
             margin-left: 0;
         }
     img.animacion-2{
@@ -515,7 +516,7 @@ html {
     img.flor-2{
         max-width: 250px;
     }
-        img.flor-2.entrar-flor-derecha{
+        .main-contenido img.flor-2.entrar-flor-derecha{
             right: -40%;
         }
     .box{
@@ -524,7 +525,7 @@ html {
     img.flor-3{
         max-width: 150px;
     }
-        img.flor-3.entrar-flor-izquierda {
+        .main-contenido img.flor-3.entrar-flor-izquierda {
             left: -30%;
         }
     .ctn-contenido h4{
@@ -557,8 +558,30 @@ html {
         img.animacion-7.entrar-animacion-7 {
             left: -10%;
             z-index: 10;
-        }
-    
+        }    
 
+}
+
+@media only screen and (max-width: 768px){
+
+    img.flor.entrar-flor-izquierda{
+        left: -45%;
+    }
+    img.flor-3.entrar-flor-izquierda{
+        left: -25%;
+    }
+    img.flor-2.entrar-flor-derecha {
+        right: -25%;
+    }
+
+    img.animacion-1.entrar-animacion-1{
+        margin-left: 0;
+    }
+    img.animacion-3.entrar-animacion-3{
+        margin-left: 120px;
+    }
+    img.animacion-4.entrar-animacion-4{
+        left: 35%;
+    }
 
 }
