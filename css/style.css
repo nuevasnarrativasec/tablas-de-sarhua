@@ -432,14 +432,16 @@ html {
     html .powa.non-active {
         opacity: 0;
     }
-    #profesora-desktop{
+    #profesora-desktop,
+    .cinta-desktop{
         display: block;
     }
     img.nino-desktop{
         display: inline-block;
     }
     #profesora-movil,
-    img.nino-movil{
+    img.nino-movil,
+    .cinta-movil{
         display: none;
     }
 
@@ -578,7 +580,8 @@ html {
     .box-ninos h3{
         padding: 0 20px;
     }
-    img.nino-desktop{
+    img.nino-desktop,
+    .cinta-desktop{
         display: none;
     }   
     img.nino-movil{
@@ -590,6 +593,9 @@ html {
     }
     .cinta{
         margin-top: -20px;
+    }
+    .cinta-movil{
+        display: block;
     }
 
 }
