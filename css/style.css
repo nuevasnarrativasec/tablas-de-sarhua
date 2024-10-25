@@ -635,6 +635,9 @@ html {
     .glide__slide{
         padding: 0 20px;
     }
+    p.aviso{
+        padding: 20px;
+    }
 
 }
 
