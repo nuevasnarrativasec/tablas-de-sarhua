@@ -620,7 +620,7 @@ html {
     }   
     .box-ninos img.nino-movil{
         display: inline-block;
-        max-width: 150px;
+        /*max-width: 150px;*/
     }
     .box-footer{
         margin-top: -25px;
