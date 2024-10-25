@@ -100,7 +100,7 @@ html {
         top: 0;   
     }
     .main-portada img{
-        bottom: 20px;  
+        bottom: 50px;  
         cursor: pointer;      
         left: 50%; 
         max-width: 50px; 
@@ -114,7 +114,7 @@ html {
     background-position: center top;
     background-repeat: no-repeat;
     background-size: 900px;
-    padding-top: 100px;
+    /*padding-top: 100px;*/
     position: relative;
 }
     .ctn-contenido{
@@ -446,7 +446,8 @@ html {
         opacity: 0;
     }
     #profesora-desktop,
-    .cinta-desktop{
+    .cinta-desktop,
+    #video-desktop{
         display: block;
     }
     img.nino-desktop{
@@ -454,7 +455,8 @@ html {
     }
     #profesora-movil,
     img.nino-movil,
-    .cinta-movil{
+    .cinta-movil,
+    #video-movil{
         display: none;
     }
 
@@ -514,10 +516,11 @@ html {
 @media only screen and (max-width: 640px) {    
 
     .main-portada{
-        height: 40vh;
+        height: 100vh;
     }
     .main-portada img{
-        max-width: 40px;
+        bottom: 35px;
+        max-width: 40px;        
         transform: translate(-50%, 50%);
     }
     .estrella-2{
@@ -601,7 +604,8 @@ html {
         padding: 0 20px;
     }
     img.nino-desktop,
-    .cinta-desktop{
+    .cinta-desktop,
+    #video-desktop{
         display: none;
     }   
     img.nino-movil{
@@ -614,7 +618,8 @@ html {
     .cinta{
         margin-top: -20px;
     }
-    .cinta-movil{
+    .cinta-movil,
+    #video-movil{
         display: block;
     }
 
