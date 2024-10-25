@@ -618,7 +618,7 @@ html {
     #video-desktop{
         display: none;
     }   
-    img.nino-movil{
+    .box-ninos img.nino-movil{
         display: inline-block;
         max-width: 150px;
     }
@@ -658,6 +658,18 @@ html {
     }
     img.animacion-4.entrar-animacion-4{
         left: 35%;
+    }
+    img.nino{
+        max-width: 350px;
+    }
+    img.nino-2{
+        max-width: 250px;
+    }
+    .box-footer{
+        margin-top: -40px;
+    }
+    .cinta{
+        margin-top: -45px;
     }
 
 }
