@@ -234,6 +234,13 @@ html {
             p.dato{
                 margin: 20px auto;
             }
+            p.aviso{
+                border-bottom: 1px solid #a56f26;
+                border-top: 1px solid #a56f26;               
+                font-family: 'prelobold';       
+                font-size: 15px;         
+                padding: 20px 0;
+            }
         .ctn-contenido h4{
             font: 18px/1.5 'prelobold';
             margin: 0 auto 15px;
