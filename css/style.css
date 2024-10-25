@@ -143,7 +143,7 @@ html {
             border-bottom-right-radius: 60px;
             border-radius: 0;
             margin-top: -70px;
-            padding-bottom: 120px;
+            padding-bottom: 95px;
             padding-top: 80px;
         }
         img.luna{
@@ -226,6 +226,9 @@ html {
             max-width: 450px;
             text-align: center;
         }
+            h3.last{
+                margin-bottom: 20px;
+            }
         .ctn-contenido p{
             font: 16px/1.5 'prelobook';
             margin: 0 auto 30px;
@@ -238,7 +241,8 @@ html {
                 border-bottom: 1px solid #a56f26;
                 border-top: 1px solid #a56f26;               
                 font-family: 'prelobold';       
-                font-size: 15px;         
+                font-size: 15px;  
+                margin-bottom: 50px;       
                 padding: 20px 0;
             }
         .ctn-contenido h4{
