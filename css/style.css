@@ -245,6 +245,10 @@ html {
                 margin-bottom: 50px;       
                 padding: 20px 0;
             }
+            .ctn-contenido p a{
+                color: #000;
+                font-family: 'prelobold';
+            }
         .ctn-contenido h4{
             font: 18px/1.5 'prelobold';
             margin: 0 auto 15px;
