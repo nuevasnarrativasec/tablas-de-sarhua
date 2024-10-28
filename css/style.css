@@ -12,20 +12,20 @@ html {
 
 @font-face {
     font-family: 'prelobook';
-    src: url('../fonts/prelo-book-webfont.woff2') format('woff2'),
-         url('../fonts/prelo-book-webfont.woff') format('woff');
+    src: url('https://nuevasnarrativasec.github.io/tablas-de-sarhua/fonts/prelo-book-webfont.woff2') format('woff2'),
+         url('https://nuevasnarrativasec.github.io/tablas-de-sarhua/fonts/prelo-book-webfont.woff') format('woff');
 }
 
 @font-face {
     font-family: 'prelomedium';
-    src: url('../fonts/prelo-medium-webfont.woff2') format('woff2'),
-         url('../fonts/prelo-medium-webfont.woff') format('woff');
+    src: url('https://nuevasnarrativasec.github.io/tablas-de-sarhua/fonts/prelo-medium-webfont.woff2') format('woff2'),
+         url('https://nuevasnarrativasec.github.io/tablas-de-sarhua/fonts/prelo-medium-webfont.woff') format('woff');
 }
 
 @font-face {
     font-family: 'prelobold';
-    src: url('../fonts/prelo-bold-webfont.woff2') format('woff2'),
-         url('../fonts/prelo-bold-webfont.woff') format('woff');
+    src: url('https://nuevasnarrativasec.github.io/tablas-de-sarhua/fonts/prelo-bold-webfont.woff2') format('woff2'),
+         url('https://nuevasnarrativasec.github.io/tablas-de-sarhua/fonts/prelo-bold-webfont.woff') format('woff');
 }
 
 .clear{
@@ -110,7 +110,7 @@ html {
 .main-contenido{
     background-attachment: fixed;
     background-color: #FFDDAF;
-    background-image: url('../img/bg-contenido-2.webp');
+    background-image: url('https://nuevasnarrativasec.github.io/tablas-de-sarhua/img/bg-contenido-2.webp');
     background-position: center top;
     background-repeat: no-repeat;
     background-size: 900px;
@@ -118,7 +118,7 @@ html {
     position: relative;
 }
     .ctn-contenido{
-        background: url('../img/textura-tabla.webp') repeat-y;
+        background: url('https://nuevasnarrativasec.github.io/tablas-de-sarhua/img/textura-tabla.webp') repeat-y;
         background-size: 100%;
         border-top-left-radius: 60px;
         border-top-right-radius: 60px;
